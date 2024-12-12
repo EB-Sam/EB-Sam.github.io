@@ -143,7 +143,7 @@ ggplot(map_data, aes(long, lat, group = group, fill = policy_score)) +
 The map provides a geographic visualization of abortion policies across U.S. states in 2023. One of the most striking details of this map is how it shows a geographic clustering of similar policies. **Specifically, states with similar policies tend to be closer to each other.** For example, the Southeast and most of central U.S. are colored red to darker red, indicating more restrictive policies.
 
 ```{r, message = FALSE}
-df <- read_csv("../../website/data/clean_data/merged_data.csv")
+df <- read_csv("../data/clean_data/merged_data.csv")
 # head(df)
 
 abortion_map_data <- df %>%

@@ -1,7 +1,0 @@
----
-title: "Bibliography"
-bibliography: references.bib  
-nocite: |
-  @*  
-csl: apa.csl 
----
